@@ -1,0 +1,339 @@
+/** GLOBAL **/
+
+.my-beautiful-extension ytd-search,
+.my-beautiful-extension ytd-browse,
+#page-manager{
+  background-color: red;
+}
+
+#search-input:not(:last-of-type)::after {
+	content: 'your freedom of choice will end after you press the button.';
+}
+
+#page-manager.ytd-app {
+  margin-top: 0 !important;
+}
+
+#ticker {
+	display: none;
+}
+
+#contentContainer,
+yt-icon-button,
+#end.style-scope.ytd-masthead {
+	display: none;
+}
+
+#logo {
+	background-image: url("algotube_logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#logo-icon-container.yt-icon-container.style-scope.ytd-topbar-logo-renderer,
+#country-code {
+	display: none;
+}
+
+#logo.ytd-masthead {
+	height: 40px;
+	display: none;    /** kioki **/
+}
+
+/** font-size search list element **/
+
+.sbsb_c.gsfs:nth-child(1) {
+	font-size: 50px;
+	padding-top:10px;
+	padding-bottom:22px;
+}
+
+.sbsb_c.gsfs:nth-child(2) {
+	font-size: 31px;
+	padding-top:8px;
+	padding-bottom:15px;
+}
+
+.sbsb_c.gsfs:nth-child(3) {
+	font-size: 23px;
+	padding-bottom:10px;
+}
+
+.sbsb_c.gsfs:nth-child(4) {
+	font-size: 15px;
+}
+
+.sbsb_c.gsfs:nth-child(5) {
+	font-size: 13px;
+}
+
+.sbsb_c.gsfs:nth-child(6) {
+	font-size: 11px;
+}
+
+.sbsb_c.gsfs:nth-child(7) {
+	font-size: 9px;
+}
+
+.sbsb_c.gsfs:nth-child(8) {
+	font-size: 8px;
+}
+
+.sbsb_c.gsfs:nth-child(9) {
+	font-size: 7px;
+}
+
+.sbsb_c.gsfs:nth-child(10) {
+	font-size: 6px;
+}
+
+/** HOME **/
+
+.my-beautiful-extension.my-home #guide {
+	background-color: red;
+	background-image: url("algotube_logo.png");
+}
+
+.my-beautiful-extension.my-home ytd-search,
+.my-beautiful-extension.my-home ytd-browse,
+#page-manager{
+  background-color: red;
+  background-image: url("algotube_logo.png");
+}
+
+
+.my-beautiful-extension.my-home #masthead {
+  display: unset;
+  background-color: red;
+}
+
+.my-beautiful-extension.my-home ytd-searchbox.ytd-masthead {
+	margin-left: -15%;
+}
+
+.my-beautiful-extension.my-home #masthead-container {
+	padding-top: 25%;
+	padding-left: 100px;
+}
+
+.my-beautiful-extension.my-home #contents {
+  opacity: 0;
+}
+
+.my-beautiful-extension.my-home #masthead-container.ytd-app::after {
+	display:none;
+}
+
+
+/** SEARCH **/
+
+.my-beautiful-extension.my-search #guide {
+	background-color: red;
+	background-image: url("algotube_logo.png");
+	background-repeat: repeat-y;
+}
+
+.my-beautiful-extension.my-search #masthead {
+  display: none;
+}
+
+ytd-secondary-search-container-renderer {
+	display: none;
+}
+
+.my-beautiful-extension.my-search #sub-menu {
+  display: none;
+}
+
+.my-beautiful-extension.my-search ytd-video-renderer,
+.my-beautiful-extension.my-search ytd-radio-renderer,
+.my-beautiful-extension.my-search ytd-playlist-renderer,
+.my-beautiful-extension.my-search ytd-channel-renderer {
+	display: none;
+}
+
+.my-beautiful-extension.my-search ytd-video-renderer:first-child {
+	display: unset;
+}
+
+.my-beautiful-extension.my-search #dismissable {
+	padding-top:25%;
+}
+
+.my-beautiful-extension.my-search ytd-app {
+	background-color: red !important;
+}
+
+.my-beautiful-extension.my-search #description-text.ytd-video-renderer {
+	display: none;
+}
+
+.my-beautiful-extension.my-search .style-scope.ytd-video-meta-block {
+	color: white !important;
+}
+
+.my-beautiful-extension.my-search #video-title.ytd-video-renderer {
+	font-size: 45px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	color: yellow;
+	text-transform: lowercase;
+	line-height:40px;
+}
+
+.style-scope.ytd-video-meta-block {
+	font-size: 30px;
+}
+
+#byline-container.ytd-video-meta-block,
+#metadata-line.ytd-video-meta-block {
+	overflow: visible;
+	line-height:2.8rem;
+	
+}
+
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+	color: blue;
+	pointer-events: none;
+}
+
+.badge-style-type-verified-artist.ytd-badge-supported-renderer {
+	display: none;
+}
+
+#metadata-line.ytd-video-meta-block span:nth-child(2).ytd-video-meta-block {
+	display: none;
+}
+
+#metadata-line.ytd-video-meta-block > .ytd-video-meta-block:not(:last-of-type)::after {
+	content: '' !important;
+}
+
+
+/** VIDEO **/
+.my-beautiful-extension.my-video #masthead {
+  display: none;
+}
+
+.my-beautiful-extension.my-video #columns {
+	background-color: red;
+	background-image: url("algotube_logo.png");
+}
+
+.my-beautiful-extension.my-video #info,
+.my-beautiful-extension.my-video #meta,
+.my-beautiful-extension.my-video #secondary-inner {
+	background-color: red;
+	padding-left: 8px;
+}
+
+/* Title video */
+.my-beautiful-extension.my-video h1.title.style-scope.ytd-video-primary-info-renderer {
+	font-size: 37px;
+	color: yellow;
+	text-transform: lowercase;
+	padding-bottom: 30px;
+	line-height: 40px;
+}
+
+/* Views */
+.my-beautiful-extension.my-video span.view-count.style-scope.yt-view-count-renderer {
+	font-size: 37px;
+	color: white;
+}
+
+.my-beautiful-extension.my-video #info-text.ytd-video-primary-info-renderer {
+	max-height: none !important;
+	padding-top: 20px;
+}
+
+
+/* Delete like and more */
+.my-beautiful-extension.my-video ytd-menu-renderer.style-scope.ytd-video-primary-info-renderer {
+	display: none;
+}
+
+.my-beautiful-extension.my-video #action-companion-click-target.ytd-action-companion-ad-renderer {
+	display: none !important;
+}
+
+.my-beautiful-extension.my-video ytd-compact-video-renderer.style-scope.ytd-watch-next-secondary-results-renderer {
+	display: none;
+}
+
+.my-beautiful-extension.my-video #continuations {
+	display: none;
+}
+
+.my-beautiful-extension.my-video ytd-comments#comments {
+	display: none;
+}
+
+
+.my-beautiful-extension.my-video #ticker {
+	display: none;
+}
+
+.my-beautiful-extension.my-video ytd-compact-radio-renderer,
+.my-beautiful-extension.my-video ytd-compact-playlist-renderer {
+	display: none;
+}
+
+.my-beautiful-extension.my-video ytd-expander.style-scope.ytd-video-secondary-info-renderer {
+	display: none;
+}
+
+.my-beautiful-extension.my-video yt-formatted-string#text {
+	display: none;
+}
+
+.my-beautiful-extension.my-video #autoplay, 
+.my-beautiful-extension.my-video #improved-toggle {
+	display: none;
+}
+
+.my-beautiful-extension.my-video ytd-compact-autoplay-renderer {
+	border-bottom: none;
+}
+
+.my-beautiful-extension.my-video #container.ytd-sentiment-bar-renderer {
+	height: 0px;
+	width: none;
+}
+
+.my-beautiful-extension.my-video ytd-video-secondary-info-renderer,
+.my-beautiful-extension.my-video ytd-video-primary-info-renderer {
+	border:none;
+}
+
+.my-beautiful-extension.my-video #byline.ytd-video-meta-block {
+	font-size: 20px;
+	color: blue;
+	padding-bottom: 7px;
+}
+
+.my-beautiful-extension.my-video .style-scope.ytd-video-meta-block {
+	font-size: 20px;
+	color: white;
+}
+
+.my-beautiful-extension.my-video ytd-compact-video-renderer #video-title.ytd-compact-video-renderer {
+	font-size: 20px;
+	color: yellow;
+	padding-bottom: 7px;
+	text-transform: lowercase;
+	line-height: 20px;
+}
+
+/** right box **/
+
+#upnext.style-scope.ytd-compact-autoplay-renderer {
+	font-size: 20px;
+	color: yellow;
+}
+
+
+#upnext.style-scope.ytd-compact-autoplay-renderer:not(:last-of-type)::after {
+	content:', you have no choice.';
+}
+

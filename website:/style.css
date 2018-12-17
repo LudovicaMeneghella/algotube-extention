@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(230, 0, 0);
+  font-family: Roboto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+#logo {
+	width: 148px;
+	display: block;
+	float: left;
+	height: auto;
+	margin-top: -50px;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 26px;
+}
+
+h4 {
+	font-size: 13px;
+}
+
+.recommendation-text {
+	font-size: 16px;
+	color: white;
+}
+
+
+
+/*h1 {
+	font-size: 50px;
+	border-style: none;
+}*/
+
+iframe {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	width: 70%;
+}
+
+.recommendations { 
+	width: 26%;
+	margin: 1%;
+	margin: 10px;
+	float: right;
+	}
+
+.blue {
+	color:blue;
+}
+
+.yellow {
+	color:yellow;
+}
+
+.white {
+	color: white;
+}
+
+.description {
+	float: left;
+	width: 70%;
+	/*position: relative;
+	height:	500px; 
+    width:	700px; 
+    margin: -20px 500px; 
+    position:	relative;
+    top:	50%; 
+    left:	10%;*/
+}
+
+li,
+p{
+	color: black;
+	font-family: Roboto;
+	font-size: 20px;
+}
+
+
+img {
+	width: 100%;
+	margin-top: 75px;
+}
+
+button{
+	float: left;
+    height:	75px; 
+    width:	250px; 
+    top:	50%; 
+    margin-left: 37%;
+    color: blue;
+    background-color: rgb(242, 242, 242);
+    font-family: TradeGothic;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    border: 2px solid yellow;
+
+}
