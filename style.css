@@ -91,7 +91,7 @@ img {
 	margin-top: 75px;
 }
 
-button{
+button, .download{
 	float: left;
     height:	75px; 
     width:	250px; 
